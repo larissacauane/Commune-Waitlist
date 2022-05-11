@@ -30,7 +30,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
 }
 
 /* =================================== */
@@ -196,11 +195,16 @@ body {
   font-weight: 400;
   font-family: inherit;
   font-size: 1.4rem;
+  cursor: pointer;
 }
 
 /* =================================== */
 /* COMPANIES */
 /* =================================== */
+.companies {
+  margin-top: 2.2rem;
+}
+
 .companies p {
   font-size: 1.4rem;
   font-weight: 700;
@@ -209,4 +213,10 @@ body {
 
 .companies img {
   margin: 0.8rem 0.8rem 0 0;
+}
+/* =================================== */
+/* IMAGE */
+/* =================================== */
+.img-container {
+  display: none;
 }
