@@ -66,13 +66,14 @@
   }
 
   .info-text h1 {
-    max-width: 60rem;
+    max-width: 65rem;
     text-align: start;
-    font-size: 4.2rem;
+    font-size: 5.2rem;
   }
 
   .info-text p {
     max-width: 60rem;
+    font-size: 1.6rem;
   }
 
   .info-form {
